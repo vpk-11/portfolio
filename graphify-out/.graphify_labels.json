@@ -1,1 +1,15 @@
-{"0": "App Shell and Theme Toggle", "1": "Project Docs and Concepts", "2": "Content Sections and Utilities", "3": "Hero and About", "4": "Skills and Type Definitions", "5": "Accent Color State", "6": "Education Section", "7": "Contact Section", "8": "Lint Config", "9": "Build Config"}
+{
+  "0": "Design System + Deployment",
+  "1": "Projects + Experience UI",
+  "2": "Hero, About, Contact",
+  "3": "Navbar + Redux Store",
+  "4": "Skills + Certifications",
+  "5": "App Entry + Composition",
+  "6": "Accent + Type Definitions",
+  "7": "Particle Background",
+  "8": "Scroll + Nav Behavior",
+  "9": "Theme Redux Slice",
+  "10": "ESLint Config",
+  "11": "Vite Config",
+  "12": "Community 12"
+}
