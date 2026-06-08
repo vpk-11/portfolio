@@ -1,16 +1,16 @@
-# Graph Report - Portfolio  (2026-06-08)
+# Graph Report - Portfolio  (2026-05-15)
 
 ## Corpus Check
-- 29 files · ~10,559 words
+- 19 files · ~7,673 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 74 nodes · 108 edges · 14 communities (9 shown, 5 thin omitted)
+- 73 nodes · 108 edges · 13 communities (8 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5693b458`
+- Built from commit: `76530311`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,17 +48,14 @@
 - `Projects()` --calls--> `formatText()`  [EXTRACTED]
   src/components/Projects/Projects.tsx → src/utils/formatText.tsx
 
-## Import Cycles
-- None detected.
-
-## Communities (14 total, 5 thin omitted)
+## Communities (13 total, 5 thin omitted)
 
 ### Community 0 - "Design System + Deployment"
 Cohesion: 0.19
 Nodes (6): AppDispatch, RootState, store, initialState, themeSlice, ThemeState
 
 ### Community 1 - "Projects + Experience UI"
-Cohesion: 0.40
+Cohesion: 0.4
 Nodes (5): Red-accent favicon set for portfolio — Hanuman font, icon-red directory, Yellow-accent favicon set for portfolio — icon-yellow directory, Open Graph and Twitter card social sharing metadata, icon-red favicon set — Hanuman font, red accent, favicon generation metadata, index.html — Portfolio entry point
 
 ### Community 2 - "Hero, About, Contact"
@@ -66,7 +63,7 @@ Cohesion: 0.24
 Nodes (9): ExpCard(), Experience(), useWindowHeight(), useWindowWidth(), Projects(), toAbsolute(), Experience, Project (+1 more)
 
 ### Community 5 - "App Entry + Composition"
-Cohesion: 0.50
+Cohesion: 0.5
 Nodes (3): accentSlice, initialState, AccentState
 
 ### Community 10 - "ESLint Config"
@@ -84,4 +81,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `Features`, `Stack`, `Prerequisites` to the rest of the system?**
   _22 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `ESLint Config` be split into smaller, more focused modules?**
-  _Cohesion score 0.125 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
