@@ -14,16 +14,6 @@
       "norm_label": "projects.json"
     },
     {
-      "label": "skills.json",
-      "file_type": "code",
-      "source_file": "src/data/skills.json",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "data_skills",
-      "community": 14,
-      "norm_label": "skills.json"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "README.md",
@@ -1849,5 +1839,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1a25c652e2e51509c41c02cc3572884465176398"
+  "built_at_commit": "5693b458bdf0f7154d81ce431ed1c4d30d122370"
 }
